@@ -1,5 +1,5 @@
 class Clux < Formula
-  desc "Terminal multiplexer focused on UX: reliable hyperlinks, scrollback, fast rendering"
+  desc "Terminal multiplexer with reliable hyperlinks, scrollback, and fast rendering"
   homepage "https://github.com/carTloyal123/clux"
   version "0.1.6"
   license "MIT"
