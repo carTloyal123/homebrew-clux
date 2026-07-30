@@ -1,19 +1,19 @@
 class Clux < Formula
   desc "Terminal multiplexer with reliable hyperlinks, scrollback, and fast rendering"
   homepage "https://github.com/carTloyal123/clux"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
-  # Prebuilt bottles from the clux release pipeline. Each archive holds both the
-  # clux client and the clux-server it spawns as a sibling.
+  # Prebuilt bottles from the clux release pipeline. Each archive holds both
+  # the clux client and the clux-server it spawns as a sibling.
   on_macos do
     on_arm do
-      url "https://github.com/carTloyal123/clux/releases/download/v0.1.6/clux-v0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "125bb037cc9ff4ed2f0d8e60a9a8e9c94ee8583c5c189645d887edb726b7f97d"
+      url "https://github.com/carTloyal123/clux/releases/download/v0.1.7/clux-v0.1.7-aarch64-apple-darwin.tar.gz"
+      sha256 "6b0427e06c2f18a173a8ceaf525691887878544d48db65aa050e9bb5cd06f067"
     end
     on_intel do
-      url "https://github.com/carTloyal123/clux/releases/download/v0.1.6/clux-v0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "5e2d1152612c26e18478fa26857f552dba04c586392620a11652a1ece1b0dc10"
+      url "https://github.com/carTloyal123/clux/releases/download/v0.1.7/clux-v0.1.7-x86_64-apple-darwin.tar.gz"
+      sha256 "ac6f36ace57c8a844749034ace324bf1fcf9bd588515eb66c31ad4d80f29648a"
     end
   end
 
